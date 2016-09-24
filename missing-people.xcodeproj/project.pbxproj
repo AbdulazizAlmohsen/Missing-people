@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89CF202F1D972F680000D66A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF202E1D972F680000D66A /* AppDelegate.swift */; };
+		89CF20311D972F680000D66A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF20301D972F680000D66A /* ViewController.swift */; };
+		89CF20341D972F680000D66A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CF20321D972F680000D66A /* Main.storyboard */; };
+		89CF20371D972F680000D66A /* missing_people.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89CF20351D972F680000D66A /* missing_people.xcdatamodeld */; };
+		89CF20391D972F680000D66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89CF20381D972F680000D66A /* Assets.xcassets */; };
+		89CF203C1D972F680000D66A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89CF203A1D972F680000D66A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89CF202B1D972F680000D66A /* missing-people.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "missing-people.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89CF202E1D972F680000D66A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89CF20301D972F680000D66A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89CF20331D972F680000D66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89CF20361D972F680000D66A /* missing_people.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = missing_people.xcdatamodel; sourceTree = "<group>"; };
+		89CF20381D972F680000D66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89CF203B1D972F680000D66A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89CF203D1D972F680000D66A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89CF20281D972F680000D66A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89CF20221D972F680000D66A = {
+			isa = PBXGroup;
+			children = (
+				89CF202D1D972F680000D66A /* missing-people */,
+				89CF202C1D972F680000D66A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89CF202C1D972F680000D66A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89CF202B1D972F680000D66A /* missing-people.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89CF202D1D972F680000D66A /* missing-people */ = {
+			isa = PBXGroup;
+			children = (
+				89CF202E1D972F680000D66A /* AppDelegate.swift */,
+				89CF20301D972F680000D66A /* ViewController.swift */,
+				89CF20321D972F680000D66A /* Main.storyboard */,
+				89CF20381D972F680000D66A /* Assets.xcassets */,
+				89CF203A1D972F680000D66A /* LaunchScreen.storyboard */,
+				89CF203D1D972F680000D66A /* Info.plist */,
+				89CF20351D972F680000D66A /* missing_people.xcdatamodeld */,
+			);
+			path = "missing-people";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89CF202A1D972F680000D66A /* missing-people */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89CF20401D972F680000D66A /* Build configuration list for PBXNativeTarget "missing-people" */;
+			buildPhases = (
+				89CF20271D972F680000D66A /* Sources */,
+				89CF20281D972F680000D66A /* Frameworks */,
+				89CF20291D972F680000D66A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "missing-people";
+			productName = "missing-people";
+			productReference = 89CF202B1D972F680000D66A /* missing-people.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89CF20231D972F680000D66A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Abdulaziz;
+				TargetAttributes = {
+					89CF202A1D972F680000D66A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89CF20261D972F680000D66A /* Build configuration list for PBXProject "missing-people" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89CF20221D972F680000D66A;
+			productRefGroup = 89CF202C1D972F680000D66A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89CF202A1D972F680000D66A /* missing-people */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89CF20291D972F680000D66A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CF203C1D972F680000D66A /* LaunchScreen.storyboard in Resources */,
+				89CF20391D972F680000D66A /* Assets.xcassets in Resources */,
+				89CF20341D972F680000D66A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89CF20271D972F680000D66A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89CF20371D972F680000D66A /* missing_people.xcdatamodeld in Sources */,
+				89CF20311D972F680000D66A /* ViewController.swift in Sources */,
+				89CF202F1D972F680000D66A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89CF20321D972F680000D66A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89CF20331D972F680000D66A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89CF203A1D972F680000D66A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89CF203B1D972F680000D66A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89CF203E1D972F680000D66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89CF203F1D972F680000D66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89CF20411D972F680000D66A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "missing-people/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Saltk.missing-people";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		89CF20421D972F680000D66A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "missing-people/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Saltk.missing-people";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89CF20261D972F680000D66A /* Build configuration list for PBXProject "missing-people" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CF203E1D972F680000D66A /* Debug */,
+				89CF203F1D972F680000D66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89CF20401D972F680000D66A /* Build configuration list for PBXNativeTarget "missing-people" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89CF20411D972F680000D66A /* Debug */,
+				89CF20421D972F680000D66A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		89CF20351D972F680000D66A /* missing_people.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89CF20361D972F680000D66A /* missing_people.xcdatamodel */,
+			);
+			currentVersion = 89CF20361D972F680000D66A /* missing_people.xcdatamodel */;
+			path = missing_people.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89CF20231D972F680000D66A /* Project object */;
+}
